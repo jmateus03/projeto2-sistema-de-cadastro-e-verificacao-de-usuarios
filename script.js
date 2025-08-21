@@ -2,7 +2,6 @@
 const nome = prompt("Digite seu nome:")
 let idade = parseInt(prompt("digite sua idade"))
 
-
 //Verifica a idade do usuario
 if(idade < 13) {
   alert("você não tem idade suficiente, não é possivel realizar o cadastro")
@@ -20,4 +19,5 @@ if(aprovNome === nome && aprovSenha === senha) {
 alert(`Login realizado com sucesso! Bem-vindo, ${nome}.`)
 }else {
     alert(`Nome ou senha incorretos. Tente novamente.`)
+
 }
