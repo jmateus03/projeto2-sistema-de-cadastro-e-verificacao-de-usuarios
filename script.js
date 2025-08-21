@@ -10,7 +10,7 @@ if(idade < 13) {
 //perguntar a senha
  let senha = prompt("Crie sua senha")
  alert("Cadastro feito com sucesso!")
-  
+
 //Login
 let aprovNome = prompt("Digite seu nome novamente:")
 let aprovSenha = prompt("Digite sua senha novamente:")
@@ -22,5 +22,3 @@ alert(`Login realizado com sucesso! Bem-vindo, ${nome}.`)
     alert(`Nome ou senha incorretos. Tente novamente.`)
 }
 }
-
-
