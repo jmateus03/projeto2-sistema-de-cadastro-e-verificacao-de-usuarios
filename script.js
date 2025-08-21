@@ -7,9 +7,12 @@ if(idade < 13) {
 }else if (idade >= 13) {
 //perguntar a senha
  let senha = prompt("Crie sua senha")
+ alert("Cadastro criado com sucesso")
+ 
 //Login
 let aprovNome = prompt("Digite seu nome novamente:")
 let aprovSenha = prompt("Digite sua senha novamente:")
+
 //Verifica se a senha e o nome estão corretos
 if(aprovNome === nome && aprovSenha === senha){
 alert(`Login realizado com sucesso! Bem-vindo, ${nome}.`)
