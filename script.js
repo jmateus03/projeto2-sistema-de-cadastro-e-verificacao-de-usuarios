@@ -10,6 +10,8 @@ if(idade < 13) {
  alert("Cadastro criado com sucesso")
  
 //Login
+  alert("Vamos para o login!!")
+  
 let aprovNome = prompt("Digite seu nome novamente:")
 let aprovSenha = prompt("Digite sua senha novamente:")
 
