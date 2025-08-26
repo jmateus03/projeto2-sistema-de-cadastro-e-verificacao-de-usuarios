@@ -1,4 +1,5 @@
 //Cadastro de usuario
+alert("====CADASTRO====")
 const nome = prompt("Digite seu nome:")
 let idade = parseInt(prompt("digite sua idade"))
 //Verifica a idade do usuario
@@ -10,9 +11,8 @@ if(idade < 13) {
  alert("Cadastro criado com sucesso")
  
 //Login
-  alert("Vamos para o login!!")
-  
-let aprovNome = prompt("Digite seu nome novamente:")
+  alert("====LOGIN====")
+let aprovNome = prompt("Digite seu nome novamente para fazer o login:")
 let aprovSenha = prompt("Digite sua senha novamente:")
 
 //Verifica se a senha e o nome estão corretos
@@ -22,3 +22,4 @@ alert(`Login realizado com sucesso! Bem-vindo, ${nome}.`)
     alert(`Nome ou senha incorretos. Tente novamente.`)
 }
 }
+
